@@ -599,7 +599,7 @@ img {display: block;}
     fill: transparent;
 }
 
-.visually-hidden:checked + .modal-checkbox-span {
+.visually-hidden:checked + .modal-checkbox-text .modal-checkbox-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
