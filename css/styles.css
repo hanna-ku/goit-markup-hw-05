@@ -405,6 +405,10 @@ img {display: block;}
     color: #ffffff;
 }
 
+.footer-email-link::placeholder {
+    color: white;
+}
+
 .footer-button {
     min-width: 165px;
     height: 40px;
@@ -597,10 +601,11 @@ img {display: block;}
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .visually-hidden:checked + .modal-checkbox-text .modal-checkbox-span {
-    background-color: #404bbf;
+    background-color: #0d0d0e;
     border: none;
     fill: #F4F4FD;
 }
@@ -625,4 +630,5 @@ img {display: block;}
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: auto;
+    border-radius: 4px;
 }
